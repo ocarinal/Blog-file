@@ -1,0 +1,44 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - master  # 监听源码仓库的 master 分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Generate static files
+      run: npx hexo generate
+
+    - name: Deploy to GitHub Pages
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.HEXOBLOG_DEPLOY_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+        cd public
+        git init
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git remote add origin git@github.com:ocarinal/ocarinal.github.io.git
+        git checkout -b master
+        git add .
+        git commit -m "🚀 Deploy from GitHub Actions"
+        git push -f origin master{\rtf1}
