@@ -1,0 +1,150 @@
+- class_name: 关于页
+  subtitle: 玻璃晴朗，橘子辉煌✨
+  avatarImg: https://pic.mikon.ink/i/2025/04/27/680de0b93d040.webp
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 宅家看番二次元
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 四处学习大佬们 🏃
+      - 团队小组发动机 🧱
+      - 躺尸咸鱼拖延症 💢
+  name: 冷戬昊
+  description: 不断学习中的 UI/平面设计
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 设计
+      - 体验
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 追求
+    title: 开启创造力，探索无限可能
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: 学生
+        color: "#405901"
+      - desc: 苦逼上班狗
+        color: "#405901"
+    img: https://pic.mikon.ink/i/2025/05/04/6816886740b8b.webp
+  statistic:
+    link: /archives/
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，山东省
+    background: https://pic.mikon.ink/i/2025/04/27/680deb10deeb4.webp
+    backgroundDark: https://pic.mikon.ink/i/2025/04/27/680deb10d9281.webp
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2000
+    selfInfoTips2: 所学专业
+    selfInfoContent2: 软件信息服务
+    selfInfoTips3: 现在职业
+    selfInfoContent3: UI/UX
+  personalities:
+    author_name: 调停者
+    personality_type: INFP-T
+    photo_url: https://pic.mikon.ink/i/2025/04/30/6811bab4a8ea4.webp
+    personality_img: https://www.16personalities.com/static/images/personality-types/famous/diplomats_INFP_frodo_baggins_the_lord_of_the_rings.svg?v=6
+    name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 玻璃晴朗
+    maxim_bottom: 橘子辉煌✨
+  buff:
+    buff_tips: 特长
+    buff_top: 探索学习无限的 非学生
+    buff_bottom: 技能拓展中 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title: 女神异闻录3 RELOAD
+    game_uid: "結城 理"
+    game_bg: https://pic.mikon.ink/i/2025/04/30/6811b84bb4b9c.webp
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: CLANNAD
+        href: https://www.bilibili.com/bangumi/media/md1177
+        cover: https://pic.mikon.ink/i/2025/04/30/6811bb4320091.webp
+      - name: CLANNAD 另一个世界 智代篇 
+        href: https://www.bilibili.com/bangumi/media/md2655
+        cover: https://pic.mikon.ink/i/2025/04/30/6811bbf319ee2.webp
+      - name: 葬送的芙莉莲
+        href: https://www.bilibili.com/bangumi/media/md21087073
+        cover: https://pic.mikon.ink/i/2025/04/30/6811bc93f119a.webp
+      - name: 日常
+        href: https://www.bilibili.com/bangumi/media/md844
+        cover: https://pic.mikon.ink/i/2025/04/30/6811bd2c2ccc1.webp
+      - name: 命运-冠位指定 绝对魔兽战线 巴比伦尼亚 
+        href: https://www.bilibili.com/bangumi/media/md28222061
+        cover: https://pic.mikon.ink/i/2025/04/30/6811beb7e9db4.webp
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 星野源、JPOP、华语流行。
+    music_bg: https://pic.mikon.ink/i/2025/04/27/680de8ddd9cce.webp
+    music_link: /music/?id=2259332459&server=netease
+  reward_list:
+    - name: 海阔蓝
+      amount: 8.8
+      datatime: 2023-03-28
+    - name: LK66
+      amount: 66.6
+      datatime: 2023-03-24
+    - name: 张时貳
+      amount: 6.6
+      datatime: 2023-01-22
+    - name: ZeroAf
+      amount: 9.9
+      datatime: 2022-12-14
+    - name: LuckyWangXi
+      amount: 6.6
+      datatime: 2022-12-14
+    - name: 刀中日月长
+      amount: 10
+      datatime: 2022-11-16
+    - name: 鹿啵包
+      amount: 10
+      datatime: 2022-11-08
+    - name: 疾速k
+      amount: 50
+      datatime: 2022-09-20
+    - name: 伴舟先生大霖子
+      amount: 4.03
+      datatime: 2022-10-27
+      suffix: 贝壳
+    - name: Magica_0x0
+      amount: 3.36
+      datatime: 2022-10-07
+      suffix: 贝壳
+    - name: 名字就是要短像这样
+      amount: 3.36
+      datatime: 2022-08-25
+      suffix: 贝壳
+    - name: Leviathan520
+      amount: 1.34
+      datatime: 2022-08-23
+      suffix: 贝壳
+    - name: 托马斯
+      amount: 10
+      datatime: 2022-08-19
+    - name: 哇是猫猫欸
+      amount: 1.34
+      datatime: 2022-08-19
+      suffix: 贝壳

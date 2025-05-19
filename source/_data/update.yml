@@ -1,0 +1,6 @@
+- top_background: "https://pic.mikon.ink/i/2025/05/04/681681ec6d2b2.webp"
+  class_name: "日志"
+  description: "LEO BLOG 更新日志"
+  tip: "这个界面是本站新功能更新日志，梳理了本站的更新内容，包括了新功能、优化、修复等。"
+  buttonLink: "/about/"
+  buttonText: "关于本站"
