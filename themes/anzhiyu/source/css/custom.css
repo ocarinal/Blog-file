@@ -142,3 +142,33 @@
 #footer:before {
     background: transparent !important;
 }
+
+.gold-widget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+  
+  /* 左侧图标 + 文本 */
+  .gold-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+  }
+  
+  /* 右侧价格 + 涨跌 */
+  .gold-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+  }
+  #card-gold.card-widget {
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem 0;         /* 缩小上下间距 */
+    border-radius: 8px;       /* 可选：让它圆角小一点 */
+    font-size: 0.95rem;       /* 可选：整体字体微缩 */
+  }

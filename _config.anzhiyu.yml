@@ -1252,6 +1252,7 @@ inject:
   bottom:
     - <script src="/static/countdown.js"></script>
     - <script src="card-welcome.js"></script>
+    - <script src="gold.js"></script>
     # - <script src="/js/xxx"></script>
 
 # CDN

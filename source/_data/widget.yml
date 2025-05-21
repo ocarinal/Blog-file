@@ -11,3 +11,20 @@ top:
         <span class="cd-date" id="eventDate"></span>
       </div>
       <div id="countRight" class="cd-count-right"></div>
+
+bottom:
+  - class_name: card-gold
+    id_name: card-gold
+    name:
+    icon:
+    html: |
+      <div class="gold-widget">
+        <div class="gold-left">
+          <i class="fas fa-coins"></i>
+          <span>今日黄金</span>
+        </div>
+        <div class="gold-info">
+          <div id="gold-prise">744.50</div>
+          <div id="gold-change" style="color: rgb(255, 0, 0);">▲0.11%</div>
+        </div>
+      </div>

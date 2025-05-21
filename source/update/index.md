@@ -6,6 +6,15 @@ aside: false
 top_img: false
 ---
 {% timeline 2025 更新内容 %}
+<!-- timeline 05-22 -->
+[增加网站首页“黄金”小组件]
+<!-- endtimeline -->
+<!-- timeline 05-20 -->
+[上传网页源代码到GITHUB仓库]
+[使用新的QEXO面板管理博客，让非本地写文章变得可能]
+[增加源代码仓库到界面仓库的自动化部署]
+[优化部分小问题]
+<!-- endtimeline -->
 <!-- timeline 05-13 -->
 [增加网站底部FOOT栏]
 [增加隐私协议、cookie协议]
